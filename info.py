@@ -24,12 +24,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6372645892:AAGCSvh6mDAQuzu01OW4S-k9G9mAJgJ
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7861360572').split()]
 USERNAME = environ.get('USERNAME', 'https://t.me/Mv_stream_villa')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002441889883'))
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441889883').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002578060057').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Stream_1:0@cluster0.rkhi9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://stream_2:0@cluster0.akq4y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Rahul')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002441889883'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002578060057'))
 QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/cVTm340/photo-2025-03-09-14-07-13-7479811186662309904.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
@@ -40,9 +40,9 @@ URL = environ.get('URL', '')
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002536072145'))
-TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/0c-i2Lol6LU")
-TUTORIAL2 = environ.get("TUTORIAL2", "https://youtu.be/GdaUbzxDTKs")
-TUTORIAL3 = environ.get("TUTORIAL3", "https://youtu.be/rddlpYLm0G0")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/MOVIES_VILLA_UPDATE/85")
+TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/MOVIES_VILLA_UPDATE/85")
+TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/MOVIES_VILLA_UPDATE/85")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "8c09653e5c38f84d1b76ad3197c5a023e53b494d")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "onepagelink.in")
@@ -50,8 +50,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "0c8ebd63bfe9f67f9970b8767498ff60
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "tnshort.net")
 SHORTENER_API3 = environ.get("SHORTENER_API3", "9c5a6c96077a1b499d8f953331221159383eb434")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "360"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "216"))
 
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
