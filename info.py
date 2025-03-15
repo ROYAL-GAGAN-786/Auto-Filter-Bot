@@ -22,7 +22,7 @@ API_ID = int(environ.get('API_ID', '18704392'))
 API_HASH = environ.get('API_HASH', 'fcdf3bd3a3576bb50d760e66f6cc9f89')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6372645892:AAGCSvh6mDAQuzu01OW4S-k9G9mAJgJYH4w')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7861360572').split()]
-USERNAME = environ.get('USERNAME', 'https://t.me/Mv_stream_villa')
+USERNAME = environ.get('USERNAME', 'Mv_stream_villa')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002441889883'))
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002578060057').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Stream_1:0@cluster0.rkhi9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
